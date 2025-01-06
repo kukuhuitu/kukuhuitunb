@@ -43,7 +43,7 @@ sound:Play()
 
 wait(1) -- 延迟
 
-local Window = OrionLib:MakeWindow({Name = "月抛中心", HidePremium = false, SaveConfig = true,IntroText = "🤓👆欢迎使用崩脚本🤓👆", ConfigFolder = "123"})
+local Window = OrionLib:MakeWindow({Name = "月抛中心", HidePremium = false, SaveConfig = true,IntroText = "欢迎使用月抛中心", ConfigFolder = "123"})
 local Tab = Window:MakeTab({
     Name = "公告",
 	Icon = "rbxassetid://4483345998",
