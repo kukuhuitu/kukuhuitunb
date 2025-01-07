@@ -1,4 +1,3 @@
-
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/VeaMSRZK"))()
 
 OrionLib:MakeNotification({
@@ -111,6 +110,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name="死亡笔记",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/krlpl/dfhj/main/%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0.txt"))()
+    end
+})
+
+Tab:AddButton({
 	Name = "飞行V2",
 	Callback = function()
     --ARCEUS X FLY V2 SCRIPT BY me_ozoneYT
@@ -144,10 +150,10 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddLabel("不建议使用/因为/太亮了")
+Tab:AddLabel("不建议使用因为太亮了")
 
 Tab:AddButton({
-  Name = "光影《电脑用不了》",
+  Name = "光影1",
   Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/arzRCgwS"))()
   end
@@ -165,13 +171,6 @@ local Tab = Window:MakeTab({
     Name = "老外做的脚本",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
-})
-
-Tab:AddButton({
-   Name = "老外做的牛逼脚本/DEX/FE谨慎使用《不听劝/号封了别怪我》",
-   Callback = function()
-   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
-   end
 })
 
 Tab:AddButton({
@@ -200,13 +199,13 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-    Name = "兵工厂脚本/会ban/建议开小号玩 《电脑用不了》",
+    Name = "兵工厂脚本",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
 Tab:AddButton({
-  Name = "兵工厂1/猫王制作《打不开》",
+  Name = "兵工厂1猫王制作",
   Callback = function()
   loadstring(game:HttpGet("https://pastefy.app/2YdrWHxV/raw"))()
   end
@@ -219,7 +218,7 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-  Name = "1-会覆盖《电脑用不了》",
+  Name = "1-会覆盖",
   Callback = function()
     loadstring(game:HttpGet('\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\98\111\121\115\99\112\47\98\101\116\97\47\109\97\105\110\47\37\69\57\37\56\48\37\57\70\37\69\53\37\66\65\37\65\54\37\69\55\37\56\50\37\66\56\37\69\56\37\66\53\37\66\55\46\108\117\97'))()
   end
@@ -233,7 +232,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "自动《电脑用不了》",
+    Name = "自动",
     Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/AyeCYbT6"))()
     end
@@ -246,21 +245,21 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-    Name = "力量传奇1《电脑用不了》",
+    Name = "力量传奇1",
     Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/main/main/Musclas%20Legenos.lua'))()
     end
 })
 
 Tab:AddButton({
-    Name = "力量传奇2《电脑用不了》",
+    Name = "力量传奇2",
     Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
     end
 })
 
 Tab:AddButton({
-   Name = "力量传奇3《电脑用不了》",
+   Name = "力量传奇3",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/li/main/%E4%B8%81%E4%B8%81%E5%8A%9B%E9%87%8F.lua"))()
    end
@@ -940,6 +939,26 @@ Tab:AddButton({
 })
 
 
+local Tab = Window:MakeTab({
+    Name = "ohio",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name="XA 执行两次",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xingtaiduan/Script/refs/heads/main/Games/Ohio"))()
+    end
+})
+
+Tab:AddButton({
+    Name="神青俄亥俄州",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gycgchgyfytdttr/shenqin/refs/heads/main/v8.txt"))()
+    end
+})
+
 
 
 local Section = Tab:AddSection({
@@ -1101,43 +1120,6 @@ loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da
 	end
 })
 
-
-Tab:AddButton({
-    Name="ohio XA 执行两次",
-    Callback=function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xingtaiduan/Script/refs/heads/main/Games/Ohio"))()
-    end
-})
-
-Tab:AddButton({
-    Name="CDID刷钱",
-    Callback=function()
-loadstring(game:HttpGet("https://pan.ly93.cc/f/wL7Xfj/CDID.txt", true))()
-    end
-})
-
-Tab:AddButton({
-    Name="河北唐县刷钱",
-    Callback=function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/ok/T%20ang%20County"))()
-    end
-})
-
-Tab:AddButton({
-    Name="伐木大亨",
-    Callback=function()
-loadstring(game:HttpGet("https://github.com/XiaoYunCN/UWU/raw/main/LuaWare.lua", true))()
---LuaWare脚本汉化版
-    end
-})
-
-Tab:AddButton({
-    Name="死亡笔记",
-    Callback=function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/krlpl/dfhj/main/%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0.txt"))()
-    end
-})
-
 local Tab = Window:MakeTab({
     Name = "各大脚本",
     Icon = "rbxassetid://4483345998",
@@ -1207,11 +1189,19 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
 })
 
 Tab:AddButton({
-    Name="禁漫中心",
+    Name="叶脚本",
     Callback=function()
-getgenv().lishichuan="禁漫中心1001390385" loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/anlushanjinchangantangwanle/main/jmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjm.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-ye/QQ515966991/refs/heads/main/ROBLOX-CNVIP-XIAOYE.lua"))()
     end
 })
+
+Tab:AddButton({
+    Name="神青脚本",
+    Callback=function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gycgchgyfytdttr/shenqin/refs/heads/main/585585757575757575.txt"))()
+    end
+})
+
 
     end
 })
